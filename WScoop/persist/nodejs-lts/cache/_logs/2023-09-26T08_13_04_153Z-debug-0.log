@@ -1,0 +1,133 @@
+0 verbose cli E:\WScoop\apps\nodejs-lts\current\node.exe E:\WScoop\apps\nodejs-lts\current\node_modules\npm\bin\npm-cli.js
+1 info using npm@9.6.7
+2 info using node@v18.17.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:E:\WScoop\apps\nodejs-lts\18.17.1\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:E:\intelliJ\teamlogin\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\alstj\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:E:\intelliJ\teamlogin\WScoop\persist\nodejs-lts\bin\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 12ms
+17 timing npm:load:configload Completed in 12ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install react-router-dom
+21 verbose argv "install" "react-router-dom"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 3ms
+25 verbose logfile logs-max:10 dir:E:\intelliJ\teamlogin\WScoop\persist\nodejs-lts\cache\_logs\2023-09-26T08_13_04_153Z-
+26 verbose logfile E:\intelliJ\teamlogin\WScoop\persist\nodejs-lts\cache\_logs\2023-09-26T08_13_04_153Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 31ms
+31 timing config:load:flatten Completed in 0ms
+32 timing arborist:ctor Completed in 1ms
+33 timing arborist:ctor Completed in 1ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 14ms
+36 timing idealTree:userRequests Completed in 1ms
+37 silly idealTree buildDeps
+38 silly fetch manifest react-router-dom@*
+39 http fetch GET 200 https://registry.npmjs.org/npm 183ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/react-router-dom 124ms (cache miss)
+41 silly fetch manifest react@>=16.8
+42 http fetch GET 200 https://registry.npmjs.org/react 69ms (cache miss)
+43 silly fetch manifest react-dom@>=16.8
+44 http fetch GET 200 https://registry.npmjs.org/react-dom 74ms (cache miss)
+45 silly placeDep ROOT react-router-dom@6.16.0 OK for:  want: *
+46 silly placeDep ROOT react@18.2.0 OK for: react-router-dom@6.16.0 want: >=16.8
+47 silly placeDep ROOT react-dom@18.2.0 OK for: react-router-dom@6.16.0 want: >=16.8
+48 silly fetch manifest @remix-run/router@1.9.0
+49 silly fetch manifest react-router@6.16.0
+50 silly fetch manifest loose-envify@^1.1.0
+51 silly fetch manifest scheduler@^0.23.0
+52 http fetch GET 200 https://registry.npmjs.org/react-router 72ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/loose-envify 93ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@remix-run%2frouter 101ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/scheduler 116ms (cache miss)
+56 timing idealTree:#root Completed in 446ms
+57 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+58 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+59 http fetch GET 200 https://registry.npmjs.org/js-tokens 35ms (cache miss)
+60 timing idealTree:node_modules/react Completed in 40ms
+61 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+62 timing idealTree:node_modules/loose-envify Completed in 3ms
+63 timing idealTree:node_modules/js-tokens Completed in 0ms
+64 silly placeDep ROOT scheduler@0.23.0 OK for: react-dom@18.2.0 want: ^0.23.0
+65 timing idealTree:node_modules/react-dom Completed in 3ms
+66 silly placeDep ROOT @remix-run/router@1.9.0 OK for: react-router-dom@6.16.0 want: 1.9.0
+67 silly placeDep ROOT react-router@6.16.0 OK for: react-router-dom@6.16.0 want: 6.16.0
+68 timing idealTree:node_modules/react-router-dom Completed in 6ms
+69 timing idealTree:node_modules/@remix-run/router Completed in 0ms
+70 timing idealTree:node_modules/react-router Completed in 0ms
+71 timing idealTree:node_modules/scheduler Completed in 0ms
+72 timing idealTree:buildDeps Completed in 501ms
+73 timing idealTree:fixDepFlags Completed in 0ms
+74 timing idealTree Completed in 520ms
+75 timing reify:loadTrees Completed in 522ms
+76 timing reify:diffTrees Completed in 1ms
+77 silly reify moves {}
+78 timing reify:retireShallow Completed in 2ms
+79 timing reify:createSparse Completed in 5ms
+80 timing reify:loadBundles Completed in 0ms
+81 silly tarball no local data for @remix-run/router@https://registry.npmjs.org/@remix-run/router/-/router-1.9.0.tgz. Extracting by manifest.
+82 silly tarball no local data for react-router@https://registry.npmjs.org/react-router/-/react-router-6.16.0.tgz. Extracting by manifest.
+83 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz. Extracting by manifest.
+84 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+85 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+86 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz. Extracting by manifest.
+87 silly tarball no local data for react-router-dom@https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.16.0.tgz. Extracting by manifest.
+88 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.2.0.tgz. Extracting by manifest.
+89 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 121ms (cache miss)
+90 timing reifyNode:node_modules/js-tokens Completed in 141ms
+91 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 141ms (cache miss)
+92 timing reifyNode:node_modules/loose-envify Completed in 163ms
+93 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.0.tgz 277ms (cache miss)
+94 timing reifyNode:node_modules/scheduler Completed in 296ms
+95 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.2.0.tgz 456ms (cache miss)
+96 timing reifyNode:node_modules/react Completed in 480ms
+97 http fetch GET 200 https://registry.npmjs.org/react-router/-/react-router-6.16.0.tgz 659ms (cache miss)
+98 timing reifyNode:node_modules/react-router Completed in 675ms
+99 http fetch GET 200 https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.16.0.tgz 659ms (cache miss)
+100 timing reifyNode:node_modules/react-router-dom Completed in 682ms
+101 http fetch GET 200 https://registry.npmjs.org/@remix-run/router/-/router-1.9.0.tgz 1136ms (cache miss)
+102 timing reifyNode:node_modules/@remix-run/router Completed in 1150ms
+103 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz 1142ms (cache miss)
+104 timing reifyNode:node_modules/react-dom Completed in 1160ms
+105 timing reify:unpack Completed in 1161ms
+106 timing reify:unretire Completed in 1ms
+107 timing build:queue Completed in 0ms
+108 timing build:link:node_modules/loose-envify Completed in 17ms
+109 timing build:link Completed in 18ms
+110 timing build:deps Completed in 19ms
+111 timing build Completed in 20ms
+112 timing reify:build Completed in 20ms
+113 timing reify:trash Completed in 0ms
+114 timing reify:save Completed in 12ms
+115 timing reify Completed in 1804ms
+116 silly ADD node_modules/react-router
+117 silly ADD node_modules/@remix-run/router
+118 silly ADD node_modules/scheduler
+119 silly ADD node_modules/js-tokens
+120 silly ADD node_modules/loose-envify
+121 silly ADD node_modules/react-dom
+122 silly ADD node_modules/react
+123 silly ADD node_modules/react-router-dom
+124 timing command:install Completed in 1812ms
+125 notice
+125 notice New [31mmajor[39m version of npm available! [31m9.6.7[39m -> [32m10.1.0[39m
+125 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.1.0[39m
+125 notice Run [32mnpm install -g npm@10.1.0[39m to update!
+125 notice
+126 verbose exit 0
+127 timing npm Completed in 2336ms
+128 info ok
